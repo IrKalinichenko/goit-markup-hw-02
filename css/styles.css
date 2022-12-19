@@ -1,0 +1,310 @@
+
+:root {
+  --text-color: #434455;
+  --accent-color: #4D5AE5;
+  --main-color: #2E2F42;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: var(--main-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus  {
+  color: var(--accent-color);
+}
+
+/* HEADER */
+
+.header-logo-web {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--accent-color);
+}
+
+.header-logo-black {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-color);
+}
+
+.header{
+
+}
+
+.header-navigation {
+
+}
+
+.header-list {
+
+}
+
+.header-item {
+
+}
+
+.header-link {
+font-weight: 700;
+/* звідси забрала фонт сайз 16 */
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-color);
+}
+
+.header-link:hover {
+  color: var(--text-color);
+}
+
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts {
+  
+}
+
+.header-mail,
+.header-tel {
+color: var(--text-color);
+}
+
+/* MAIN CONTENT */
+/* hero */
+
+.hero {
+background-color: var(--main-color);
+}
+
+.hero-title {
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.hero-btn {
+font-family: inherit;
+font-weight: 700;
+line-height: 1.19;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: var(--accent-color);
+border: none;
+cursor: pointer;
+}
+
+.hero-btn:hover {
+color: var(--accent-color);
+}
+
+.hero-btn:focus {
+color: #404BBF;
+}
+
+/* features */
+
+.features {
+}
+
+.visually-hidden {
+}
+
+.features-list {
+
+}
+
+.features-item {
+}
+
+.features-headers {
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.features-text {
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+
+/* offer section */
+
+.offer {
+}
+
+.offer-title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+.offer-list {
+
+}
+
+.offer-item {
+}
+
+
+/* team section */
+
+.team {
+  background-color: #F4F4FD
+}
+
+.team-title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+.team-list {
+
+}
+
+.team-item {
+}
+
+.team-names {
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+.team-text {
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--main-color);
+}
+
+.footer-logo-web {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--accent-color);
+}
+
+.footer-logo-white {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+}
+
+.footer-text {
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+/* PORTFOLIO */
+
+/* main */
+
+.portfolio {
+}
+
+.visually-hidden {
+}
+
+.portfolio-filter {
+  
+}
+
+.portfolio-filter-btn {
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--accent-color);
+background-color: #F4F4FD;
+border: none;
+cursor: pointer;
+}
+
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
+color: #FFFFFF;
+background-color: var(--accent-color);
+}
+
+.portfolio-examples-list {
+  
+}
+
+.portfolio-examples-item {
+}
+
+.portfolio-examples-title {
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.portfolio-examples-text {
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
