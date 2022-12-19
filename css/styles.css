@@ -1,8 +1,7 @@
-
 :root {
   --text-color: #434455;
-  --accent-color: #4D5AE5;
-  --main-color: #2E2F42;
+  --accent-color: #4d5ae5;
+  --main-color: #2e2f42;
 }
 
 body {
@@ -33,56 +32,52 @@ body {
 }
 
 .link:hover,
-.link:focus  {
+.link:focus {
   color: var(--accent-color);
 }
 
 /* HEADER */
 
 .header-logo-web {
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--accent-color);
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
 }
 
 .header-logo-black {
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--main-color);
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
 }
 
-.header{
-
+.header {
 }
 
 .header-navigation {
-
 }
 
 .header-list {
-
 }
 
 .header-item {
-
 }
 
 .header-link {
-font-weight: 700;
-/* звідси забрала фонт сайз 16 */
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--main-color);
+  font-weight: 700;
+  /* звідси забрала фонт сайз 16 */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 
 .header-link:hover {
@@ -94,48 +89,47 @@ color: var(--main-color);
 }
 
 .header-contacts {
-  
 }
 
 .header-mail,
 .header-tel {
-color: var(--text-color);
+  color: var(--text-color);
 }
 
 /* MAIN CONTENT */
 /* hero */
 
 .hero {
-background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 
 .hero-title {
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #FFFFFF;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .hero-btn {
-font-family: inherit;
-font-weight: 700;
-line-height: 1.19;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-background-color: var(--accent-color);
-border: none;
-cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.19;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border: none;
+  cursor: pointer;
 }
 
 .hero-btn:hover {
-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .hero-btn:focus {
-color: #404BBF;
+  color: #404bbf;
 }
 
 /* features */
@@ -147,22 +141,21 @@ color: #404BBF;
 }
 
 .features-list {
-
 }
 
 .features-item {
 }
 
 .features-headers {
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .features-text {
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 /* offer section */
@@ -171,54 +164,51 @@ color: var(--text-color);
 }
 
 .offer-title {
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .offer-list {
-
 }
 
 .offer-item {
 }
 
-
 /* team section */
 
 .team {
-  background-color: #F4F4FD
+  background-color: #f4f4fd;
 }
 
 .team-title {
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-list {
-
 }
 
 .team-item {
 }
 
 .team-names {
-font-size: 20px;
-line-height: 1.2;
-text-align: center;
-letter-spacing: 0.02em;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .team-text {
-line-height: 1.5;
-text-align: center;
-letter-spacing: 0.02em;
-color: var(--text-color);
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 /* FOOTER */
@@ -228,31 +218,31 @@ color: var(--text-color);
 }
 
 .footer-logo-web {
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--accent-color);
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
 }
 
 .footer-logo-white {
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #F4F4FD;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-text {
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #E7E9FC;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
 }
 
 /* PORTFOLIO */
@@ -266,45 +256,43 @@ color: #E7E9FC;
 }
 
 .portfolio-filter {
-  
 }
 
 .portfolio-filter-btn {
-font-family: inherit;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: var(--accent-color);
-background-color: #F4F4FD;
-border: none;
-cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: #f4f4fd;
+  border: none;
+  cursor: pointer;
 }
 
 .portfolio-filter-btn:hover,
 .portfolio-filter-btn:focus {
-color: #FFFFFF;
-background-color: var(--accent-color);
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 .portfolio-examples-list {
-  
 }
 
 .portfolio-examples-item {
 }
 
 .portfolio-examples-title {
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-examples-text {
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
